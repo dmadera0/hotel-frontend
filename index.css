@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://media.architecturaldigest.com/photos/5c798a2d22644c2d41b67dfa/master/w_1200%2Cc_limit/Fairmont%2520San%2520Fransico.jpg");
+    background-color: #cccccc;
+    font-size: x-large;
+}
+
+h1{
+    flex-direction: column;
+    flex-direction: row-reverse;
+}
