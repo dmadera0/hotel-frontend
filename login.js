@@ -1,5 +1,5 @@
 
-const form = document.querySelector('#login-form')
+const form = document.querySelector('#create-form')
 const guest_url = 'http://localhost:3000/guests'
 
 form.addEventListener('submit', createUser)
@@ -21,7 +21,7 @@ function createUser(event){
     fetch (guest_url, {
         method: 'POST',
         headers: { 
-            "Accept": 'application/json',
+            // "Accept": 'application/json',
             "Content-Type": 'application/json'
         },
         body: JSON.stringify({
@@ -32,7 +32,18 @@ function createUser(event){
     })
 
     console.log(username,party_size,password)
-
- 
-
 }
+
+const form = documet.querySelector('#login-form')
+
+
+
+
+
+//  function createUser(event){
+//      event.preventDefault()
+
+//     const formData = new FormData(event.target)
+
+
+// }
