@@ -32,7 +32,12 @@ function createUser(event){
     })
 
     console.log(username,party_size,password)
+}
 
- 
+function createUser(event){
+    event.preventDefault()
+
+    const formData = new FormData(event.target)
+    
 
 }
